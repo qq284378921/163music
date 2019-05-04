@@ -35,7 +35,7 @@ body{
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 1;
+  z-index: 2;
   background: white;
 }
 .topbar{
@@ -191,7 +191,7 @@ ol > li > h2{
   height: 67px;
   background-position: -24px -30px;
   background-size: 166px 97px;
-  z-index: 5;
+  z-index: 1;
 }
 .hotTB > .hotBox > .hotTime{
   margin-top: 10px;
