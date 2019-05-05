@@ -176,7 +176,7 @@ ol > li > h2{
   right: 0;
   content: " ";
   z-index: 1;
-  background-color: rgba(0,0,0,0.2);
+  background-color: rgba(0,0,0,0.1);
 }
 .hotTB > .hotBox{
   flex-direction: column;
@@ -220,6 +220,7 @@ ol > li > h2{
   padding-top: 9px;
   width: 80%;
   height: 54.4px;
+  border-bottom: 1px solid #E2E2E3;
 }
 .hotInfo > .hotIT{
   font-size: 17px;
@@ -246,6 +247,7 @@ ol > li > h2{
   justify-content: center;
   align-items: center;
   height: 54.4px;
+  border-bottom: 1px solid #E2E2E3;
 }
 .moreList{
   color: #999;
