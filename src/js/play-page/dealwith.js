@@ -1,7 +1,7 @@
 let player = document.getElementById('myaudio')
 let lyricList = {}
 getSongInfo()
-
+lyricWatch()
 //根据song.id获取相关信息
 function getSongInfo() {
   let query = new AV.Query('Song')
@@ -67,7 +67,7 @@ function getPlayingTime() {
 
 //  播放时间监控 
 // 歌词滚动并高亮
-function watch() {
+function lyricWatch() {
   player.ontimeupdate = () => {
     let playingTime = getPlayingTime()
     for (let lyricTime in lyricList) {
